@@ -7,6 +7,9 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.EditText
 
+/**
+ * 自定义软键盘
+ */
 class MainActivity : AppCompatActivity() {
 
     lateinit var editText: EditText
