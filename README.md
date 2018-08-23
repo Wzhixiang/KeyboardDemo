@@ -25,29 +25,9 @@ KeyboardView中各属性：
 * shadowRadius：按键文字阴影半径
 * shadowColor：按键文字阴影颜色
 
-2.在xml文件中定义keyboard
-><Keyboard xmlns:android="http://schemas.android.com/apk/res/android"</br>
-  >>android:horizontalGap="1dp"</br>
-    android:keyHeight="40dp"</br>
-    android:keyWidth="33.3%p"</br>
-    android:verticalGap="1dp"></br>
-    <Row></br>
-        <Key</br>
-            >>>android:codes="1"</br>
-            android:keyLabel="1"</br>
-            android:keyOutputText="1" /></br>
-        <Key</br>
-            android:codes="2"</br>
-            android:keyLabel="2"</br>
-            android:keyOutputText="2" /></br>
-        <Key</br>
-            android:codes="3"</br>
-            android:keyLabel="3"</br>
-            android:keyOutputText="3" /></br>
-            
-    </Row></br>
-    <Row></br>
-        >>>...</br>
-    Row></br>
-    ...</br>
-></Keyboard></br>
+2.在xml文件中定义keyboard</br>
+
+3.在创建Keyboard，并监听KeyboardView
+
+（不想写说明，太麻烦了，具体看代码）
+

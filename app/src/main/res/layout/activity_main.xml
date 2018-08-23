@@ -24,10 +24,11 @@
         android:focusableInTouchMode="true"
         android:keyBackground="@android:color/white"
         android:keyTextColor="@color/colorPrimary"
-        android:keyTextSize="16sp"
+        android:keyTextSize="32sp"
         android:labelTextSize="16sp"
         android:padding="1dp"
         android:shadowRadius="0"
+        android:shadowColor="@color/colorPrimary"
         app:layout_constraintBottom_toBottomOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
